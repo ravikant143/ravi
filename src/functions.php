@@ -24,11 +24,11 @@ function getAllTasks(): array {
 /**
  * Marks a task as completed or uncompleted
  * 
- * @param int  $task_id The ID of the task to mark.
+ * @param string  $task_id The ID of the task to mark.
  * @param bool $is_completed True to mark as completed, false to mark as uncompleted.
  * @return bool True on success, false on failure
  */
-function markTaskAsCompleted( int $task_id, bool $is_completed ): bool {
+function markTaskAsCompleted( string $task_id, bool $is_completed ): bool {
 	$file  = __DIR__ . '/tasks.txt';
 	// TODO: Implement this function
 }
@@ -36,10 +36,10 @@ function markTaskAsCompleted( int $task_id, bool $is_completed ): bool {
 /**
  * Deletes a task from the task list
  * 
- * @param int $task_id The ID of the task to delete.
+ * @param string $task_id The ID of the task to delete.
  * @return bool True on success, false on failure.
  */
-function deleteTask( int $task_id ): bool {
+function deleteTask( string $task_id ): bool {
 	$file  = __DIR__ . '/tasks.txt';
 	// TODO: Implement this function
 }
