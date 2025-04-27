@@ -8,7 +8,7 @@ This assignment is a PHP-based task management system where users can add tasks 
 Your objective is to implement the functionality in the **src/** directory while following these rules:
 
 ✅ **DO NOT** change function names or modify the file structure.  
-✅ **DO NOT** modify anything outside the **src/** folder.  
+✅ **DO NOT** modify anything outside the **src/** folder. You can add additional files if required inside **src** folder.
 ✅ **DO NOT** use a database; use text files for storage.  
 ✅ Implement all required functions in `functions.php`.  
 ✅ Implement the main interface in `index.php`.  
