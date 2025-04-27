@@ -238,6 +238,8 @@ function sendTaskEmail( $email, $pending_tasks ) {
 
 ### 📩 Email Content Guidelines
 
+⚠️ Note: The Subject and Body of the email must strictly follow the formats below, including the exact HTML structure.
+
 #### ✅ Task Reminder Email:
 
 - **Subject:** `Task Planner - Pending Tasks Reminder`
