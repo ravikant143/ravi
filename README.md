@@ -221,8 +221,6 @@ function sendTaskEmail( $email, $pending_tasks ) {
 
 ## 📩 Email Content Guidelines
 
-- Subject and id of link must be same.
-
 #### ✅ Verification Email:
 
 - **Subject:** `Verify subscription to Task Planner`
