@@ -197,7 +197,7 @@ function sendTaskEmail( $email, $pending_tasks ) {
 #### ✅ Example:
 
 ```html
-<ul id="tasks-list">
+<ul class="tasks-list">
 	<li class="task-item">
 		<input type="checkbox" class="task-status">
 		<button class="delete-task">Delete</button>
