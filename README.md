@@ -153,7 +153,7 @@ function sendTaskEmail( $email, $pending_tasks ) {
 ## ❌ Disqualification Criteria
 
 🚫 **Hardcoding** verification codes.  
-🚫 **Using a database** (use `rsubscribers.txt`).  
+🚫 **Using a database** (use `subscribers.txt`).  
 🚫 **Modifying anything outside** the `src/` directory.  
 🚫 **Changing function names**.  
 🚫 **Not implementing a working CRON job**.  
