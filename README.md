@@ -162,6 +162,7 @@ function sendTaskEmail( $email, $pending_tasks ) {
 🚫 **Changing function names**.  
 🚫 **Not implementing a working CRON job**.  
 🚫 **Not formatting emails as HTML**.
+🚫 Using 3rd party libraries, only pure PHP is allowed.
 
 ---
 
