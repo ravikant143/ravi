@@ -14,7 +14,7 @@ function addTask( string $task_name ): bool {
 /**
  * Retrieves all tasks from the tasks.txt file
  * 
- * @return array Array of tasks.
+ * @return array Array of tasks. -- Format [ id, name, completed ]
  */
 function getAllTasks(): array {
 	$file = __DIR__ . '/tasks.txt';
