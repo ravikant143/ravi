@@ -259,3 +259,52 @@ function sendTaskEmail( $email, $pending_tasks ) {
 ```
 
 ---
+## 📊 Data Storage Format
+
+All data must be stored in JSON format in the text files.
+
+### Tasks Format (`tasks.txt`):
+
+Tasks must be stored as a JSON array of objects with the following schema:
+
+```json
+[
+	{
+		"id": "unique_task_id",
+		"name": "Task Name",
+		"completed": false
+	},
+	{
+		"id": "another_task_id",
+		"name": "Another Task",
+		"completed": true
+	}
+]
+```
+
+### Subscribers Format (`subscribers.txt`):
+
+Subscribers must be stored as a JSON array of email addresses:
+
+```json
+["user1@example.com", "user2@example.com"]
+```
+
+### Pending Subscriptions Format (`pending_subscriptions.txt`):
+
+Pending subscriptions must be stored as a JSON object with emails as keys:
+
+```json
+{
+	"user1@example.com": {
+		"code": "123456",
+		"timestamp": 1717694230
+	},
+	"user2@example.com": {
+		"code": "654321",
+		"timestamp": 1717694245
+	}
+}
+```
+
+⚠️ **Important**: Ensuring your data follows these exact JSON schemas is critical for proper validation.
